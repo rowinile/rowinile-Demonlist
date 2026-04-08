@@ -35,6 +35,11 @@
     cursor: pointer;
 }
 
+.list-level:hover {
+    border: 3px solid #15ff00;
+    transition: border 0.3s ease;
+}
+
 .list-level-placement {
     display: flex;
     align-items: center;
@@ -50,6 +55,11 @@
     border-start-start-radius: 30px;
 
     border-right: 4px solid #ffd900;
+}
+
+.list-level:hover .list-level-placement {
+    border-right: 4px solid #15ff00;
+    transition: border 0.3s ease;
 }
 
 .list-level-background-image {
