@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+
+    color: #fff;
+}
+
+#cube {
+    display: flex;
+    align-items: center;
+
+    margin: 20px 0 0 40%;
+}
+
+#cube span {
+    margin-left: 20px;
+
+    font-size: 30px;
+}
+.list-level {
+    width: 100%;
+    height: 180px;
+
+    border: 3px solid #ffd900;
+    border-radius: 30px;
+
+    display: flex;
+    align-items: center;
+    position: relative;
+
+    margin: 20px 0 !important;
+
+    cursor: pointer;
+}
+
+.list-level-placement {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    padding: 0 30px;
+    height: 100%;
+    
+    font-size: 50px;
+    
+    background-color: #ffd90011;
+    border-end-start-radius: 30px;
+    border-start-start-radius: 30px;
+
+    border-right: 4px solid #ffd900;
+}
+
+.list-level-background-image {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    width: 100%;
+    height: 100%;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    border-start-end-radius: 30px;
+    border-end-end-radius: 30px;
+}
+
+.list-level-title {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+
+    margin-left: 40px;
+    
+    font-size: 50px;
+
+    border-radius: 10px;
+}
+
+.list-level-details {
+    display: none;
+    flex-direction: column;
+    
+    width: 100%;
+
+    border: 3px solid #ffd900;
+    border-radius: 10px;
+
+    margin: 10px 0 !important;
+}
+
+.list-level-details.show {
+    display: flex;
+}
+
+.list-level-details span {
+    border-bottom: 1px solid #ffd900;
+
+    padding: 10px;
+}
+
+.list-level-details .level-completion-video {
+    padding: 10px;
+    margin-left: 25%;
+}
+
+.list-level-details span:last-child {
+    border: none;
+}
