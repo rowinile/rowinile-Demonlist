@@ -91,7 +91,7 @@
     border-radius: 10px;
 }
 
-.list-level-details {
+.list-level-details { 
     display: none;
     flex-direction: column;
     
