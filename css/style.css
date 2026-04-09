@@ -134,11 +134,22 @@
     padding: 10px;
 }
 
-.list-level-details .level-completion-video {
-    padding: 10px;
-    margin-left: 25%;
-}
-
 .list-level-details span:last-child {
     border: none;
+}
+
+@media (max-width: 768px) {
+    .list-level {
+        height: 90px;
+    }
+
+    .list-level-placement {
+        font-size: 30px;
+    }
+
+    .list-level-title {
+        margin-left: 20px;
+    
+        font-size: 20px;
+    }
 }
