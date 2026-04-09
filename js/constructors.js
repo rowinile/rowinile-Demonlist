@@ -26,7 +26,7 @@ const levels = [
     new Level("Sazerix by Zeptrus", "3", "110", "2", "8/10", "9/10", "8/10", "10620", "76%, 71%, 70%", "17-32, 0-17 (in that order)", "50-66", "../rowinile-Demonlist/img/sazerix.png"),
     new Level("Endless Dream by DreamTide", "6", "N/A", "5", "10/10", "10/10", "10/10", "?", "50%, 49%", "0-23, 32-34, 85-100", "23-32, 36-65", "../rowinile-Demonlist/img/endlessDream.png"),
     new Level("Bloodbath by Riot", "1", "N/A", "1", "4/10", "5/10", "1/10", "6022+", "N/A", "N/A", "N/A", "../rowinile-Demonlist/img/bloodbath.png"),
-    new Level("Hidden in The Sand", "9", "N/A", "9", "3/10", "5/10", "5/10", "N/A", "N/A", "N/A", "N/A", "../rowinile-Demonlist/img/hiddenInTheSand.png"),
+    new Level("Hidden in The Sand", "9", "N/A", "9", "3/10", "5/10", "5/10", "N/A", "N/A", "N/A", "N/A", "../rowinile-Demonlist/img/hiddenInTheSand.png")
 ]
 
 const displayLevel = (levels) => {
