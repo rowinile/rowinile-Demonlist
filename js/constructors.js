@@ -1,7 +1,7 @@
 class Level {
     constructor(title, completionLink, number, placement, personalPlacement, rating, experience, enjoyment, attempts, worstFails, hardestParts, easiestParts, img) {
         this.title = title;
-        this.completion = completion;
+        this.completionLink = completionLink;
         this.number = number;
         this.placement = placement;
         this.personalPlacement = personalPlacement;
