@@ -37,8 +37,16 @@
 }
 
 .list-level:hover {
-    border: 3px solid #15ff00;
+    border: 3px solid #0011ff;
     transition: border 0.3s ease;
+}
+
+.list-level.active, .list-level.active:hover {
+    border: 3px solid #15ff00;
+}
+
+.list-level.active .list-level-placement, .list-level.active:hover .list-level-placement {
+    border-right: 4px solid #15ff00;
 }
 
 .list-level-placement {
@@ -59,7 +67,7 @@
 }
 
 .list-level:hover .list-level-placement {
-    border-right: 4px solid #15ff00;
+    border-right: 4px solid #0011ff;
     transition: border 0.3s ease;
 }
 
@@ -91,24 +99,37 @@
     border-radius: 10px;
 }
 
-.list-level-details { 
+.list-level-details {
     display: none;
     flex-direction: column;
     
     width: 100%;
 
-    border: 3px solid #ffd900;
+    border: 3px solid #15ff00;
     border-radius: 10px;
 
     margin: 10px 0 !important;
 }
 
+@keyframes showDetails {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 .list-level-details.show {
     display: flex;
+
+    animation: showDetails 1s ease;
 }
 
 .list-level-details span {
-    border-bottom: 1px solid #ffd900;
+    border-bottom: 1px solid #15ff00;
 
     padding: 10px;
 }
