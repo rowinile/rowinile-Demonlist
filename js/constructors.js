@@ -45,7 +45,7 @@ const displayLevel = (levels) => {
             </div>
             <div id="list-level-details-${Number(i + 1)}" class="col-12 list-level-details">
                 <span>
-                    Completion Video: <strong><a href="${levels[i].completionLink}">Click Me</a></strong>
+                    Completion Video: <strong><a href="${levels[i].completionLink}" target="_blank">Click Me</a></strong>
                 </span>
                 <span>
                     Extreme Demon: <strong>#${levels[i].number}</strong>
